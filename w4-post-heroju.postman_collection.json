@@ -1,0 +1,447 @@
+{
+	"info": {
+		"_postman_id": "59c5cee2-de37-4154-b688-65f1e98634e0",
+		"name": "w4:post-heroju",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2640646"
+	},
+	"item": [
+		{
+			"name": "無此路由 #1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\":\"bbbbb\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "無此路由 #2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titl\":\"bbbbb\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "查詢所有users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/users",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "myIpaddress",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/ip",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"ip"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "查詢posts(param)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts?timeSort=desc&q=1",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					],
+					"query": [
+						{
+							"key": "timeSort",
+							"value": "desc"
+						},
+						{
+							"key": "q",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "查詢所有posts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "查詢單筆post",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts/629b11347ca5be7aa80aaf95",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts",
+						"629b11347ca5be7aa80aaf95"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\": \"629ad3ddc1f54533e02637a6\",\r\n    \"content\": \"今天下雨 #4\"\r\n}\r\n   \r\n   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆post -err1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\": \"626c201932ac9235b633bcc0\",\r\n    \"content\": \"測試關聯 #8\"\r\n}\r\n   \r\n   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆post -err2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"content\": \"測試關聯 #8\"\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆post -err3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\":\"bbbbb\"\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除所有posts",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除單筆post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts/629b0c452e761887f5fcbbb9",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts",
+						"629b0c452e761887f5fcbbb9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "更新單筆post",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\r\n        {\r\n            \"image\": \"http://dummyimage.com/197x100.png/dddddd/000000\",\r\n            \"content\": \"oxoxoxoxoxox\"\r\n\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://infinite-peak-24830.herokuapp.com/posts/629b11f17ca5be7aa80aafa9",
+					"protocol": "https",
+					"host": [
+						"infinite-peak-24830",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts",
+						"629b11f17ca5be7aa80aafa9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+# REST Client
+
+### 1.
+GET http://127.0.0.1:3006/posts?timeSort=desc&q=2
+
+### 2
+GET http://127.0.0.1:3006/posts?timeSort=asc
+
+### 3.
+POST http://127.0.0.1:3006/posts
+Content-Type: application/json
+
+{
+    "user": "626c201932ac9235b633bcc0",
+
+}
+   
